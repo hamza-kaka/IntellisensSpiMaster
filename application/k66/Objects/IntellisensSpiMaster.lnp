@@ -57,6 +57,7 @@
 ".\objects\i2commands.o"
 ".\objects\dma.o"
 ".\objects\timers.o"
+".\objects\gpio.o"
 ".\objects\testmode1.o"
 ".\objects\testmode2.o"
 ".\objects\testmode3.o"

@@ -14,6 +14,7 @@
 #include "timers.h"
 #include "dma.h"
 #include "I2Commands.h"
+#include "gpio.h"
 
 /*******************************************************************************
  * Defines
@@ -64,6 +65,7 @@ void InitSetup()
   SpiInit();
 	PitInit();
 	DmaInit();
+	GpioInit();
 	ActivateSlaveSpi();
 }
 
@@ -75,7 +77,13 @@ void AutoTestComplete(bool * testResults)
 	for(int a=0; a<NO_OF_MODES; a++)
 	{
 		testResults[a] = testFuncs[a]();
+		if(testResults[a])
+			ErrorSet();
+		
+		SysTickDelayUs(3);
 	}
+	
+	
 
 }
 

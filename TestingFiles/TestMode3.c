@@ -11,6 +11,7 @@
  ******************************************************************************/
 #include "spiParams.h"
 #include "I2Commands.h"
+#include "timers.h"
 
 /*******************************************************************************
  * Defines
@@ -49,25 +50,33 @@ bool AutoTestMode3()
 	ChnlEnable(1);
 	SendStartConv();
 	ReadReg16(REGRCH2,resultCh2); 
+	WaitTillIdle();
 	ReadReg16(REGRCH2,&temp);
+	WaitTillIdle();
 	SendStopConv();
 	if(resultCh2[0] != temp) //if channel 2 result is active, it means channel selection doesnt work 
 		error = true;
 	
+	SysTickDelayUs(3); // for the ADC and DMA to complete its calculation of prev channel
+	
 	ChnlEnable(2);
 	SendStartConv();
 	ReadReg16(REGRCH1,resultCh1); 
-	ReadReg16(REGRCH1,&temp);
+	WaitTillIdle();
+	ReadReg16(REGRCH1,&temp); 
+	WaitTillIdle();
 	SendStopConv();
-//	if(resultCh1[0] != temp)
-//		error = true;
+	if(resultCh1[0] != temp)
+		error = true;
 	
 	ChnlEnable(3); // both channels are active 
 	SendStartConv();
 	for(int a=0; a<testNum; a++)
 	{
 		ReadReg16(REGRCH1,&resultCh1[a]); 
+		WaitTillIdle();
 		ReadReg16(REGRCH2,&resultCh2[a]); 
+		WaitTillIdle();
 		if(resultCh1[a] == 0 || resultCh2[a] == 0)
 			success++;
 	}

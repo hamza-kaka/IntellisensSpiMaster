@@ -9,23 +9,29 @@
 AutoTestComplete PROC
         PUSH     {r0-r6,lr}
         MOV      r5,r0
-        LDR      r3,|L1.32|
+        LDR      r3,|L1.48|
         LDM      r3,{r0-r3}
         STM      sp,{r0-r3}
         MOVS     r4,#0
-        B        |L1.26|
+        B        |L1.42|
 |L1.16|
         LDR      r0,[sp,r4,LSL #2]
         BLX      r0
         STRB     r0,[r5,r4]
+        LDRB     r0,[r5,r4]
+        CBZ      r0,|L1.32|
+        BL       ErrorSet
+|L1.32|
+        VMOV.F32 s0,#3.00000000
+        BL       SysTickDelayUs
         ADDS     r4,r4,#1
-|L1.26|
+|L1.42|
         CMP      r4,#4
         BLT      |L1.16|
         POP      {r0-r6,pc}
         ENDP
 
-|L1.32|
+|L1.48|
         DCD      ||.constdata||
 
         AREA ||i.InitSetup||, CODE, READONLY, ALIGN=1
@@ -35,6 +41,7 @@ InitSetup PROC
         BL       SpiInit
         BL       PitInit
         BL       DmaInit
+        BL       GpioInit
         BL       ActivateSlaveSpi
         POP      {r4,pc}
         ENDP
@@ -109,7 +116,10 @@ spiI2Props
         IMPORT SpiInit [CODE]
         IMPORT PitInit [CODE]
         IMPORT DmaInit [CODE]
+        IMPORT GpioInit [CODE]
         IMPORT ActivateSlaveSpi [CODE]
+        IMPORT ErrorSet [CODE]
+        IMPORT SysTickDelayUs [CODE]
 
         ATTR FILESCOPE
         ATTR SETVALUE Tag_ABI_PCS_wchar_t,2

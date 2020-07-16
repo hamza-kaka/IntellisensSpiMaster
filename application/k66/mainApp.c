@@ -51,12 +51,12 @@ int main()
 	
 	InitSetup();
 	
-//	AutoTestComplete(testResults);
+	AutoTestComplete(testResults);
 	
 //	AutoTestMode1();
 //	AutoTestMode2(); 
-	AutoTestMode3();
-	AutoTestMode4();
+//	AutoTestMode3();
+//	AutoTestMode4();
 	 
 	
 	while(1)

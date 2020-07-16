@@ -25,3 +25,4 @@
 .\objects\testmode3.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\testmode3.o: ..\..\application\UserConfig.h
 .\objects\testmode3.o: ..\..\I2Commands\I2Commands.h
+.\objects\testmode3.o: ..\..\HelpingModules\timers.h

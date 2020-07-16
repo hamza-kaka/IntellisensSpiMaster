@@ -25,12 +25,12 @@ extern "C" {
  */
 void BOARD_InitBootPins(void);
 
-/*! @name PORTD4 (number 131), errorPin
+/*! @name PORTD4 (number 131), testPin
   @{ */
-#define BOARD_INITPINS_errorPin_GPIO GPIOD /*!<@brief GPIO device name: GPIOD */
-#define BOARD_INITPINS_errorPin_PORT PORTD /*!<@brief PORT device name: PORTD */
-#define BOARD_INITPINS_errorPin_PIN 4U     /*!<@brief PORTD pin index: 4 */
-                                           /* @} */
+#define BOARD_INITPINS_testPin_GPIO GPIOD /*!<@brief GPIO device name: GPIOD */
+#define BOARD_INITPINS_testPin_PORT PORTD /*!<@brief PORT device name: PORTD */
+#define BOARD_INITPINS_testPin_PIN 4U     /*!<@brief PORTD pin index: 4 */
+                                          /* @} */
 
 /*!
  * @brief Configures pin routing and optionally pin electrical features.

@@ -5,43 +5,14 @@
 
 @author Hamza Naeem Kakakhel
 @copyright Taraz Technologies Pvt. Ltd.
- */
-#ifndef  USERCONFIG_I2_SPI_h
-#define USERCONFIG_I2_SPI_h
+*/
 /*******************************************************************************
  * Includes
  ******************************************************************************/
-#include "fsl_common.h"
-
+#include "UserConfig.h"
 /*******************************************************************************
  * Defines
  ******************************************************************************/
-#define BURST_CHNL_IND_CHCK (0)
-#define CURRENT_COMP_TEST (0)
-
-#if CURRENT_COMP_TEST
-	#define CH1_CUR_VAL (2.0f) // amps
-	#define CH2_CUR_VAL (2.0f) // amps
-#endif
-
-#define DEF_BAUDRATE (24000000)
-#define DEF_CONVRATE (500000)
-
-
-#define SPI_MODULE_NO (SPI2)
-#define CONT_CLCK_ENABLE (0)
-#define DEF_PCS_NO (0)
-
-#define DMA_MUX_SPI_RX 38
-#define DMA_MUX_SPI_TX 39
-
-#define DMA_TX_CHNL 15
-#define DMA_RX_CHNL 14
-
-#define ERROR_PIN  (4)
-#define ERROR_GPIO  GPIOD
-
-
 
 /*******************************************************************************
  * Enums
@@ -54,9 +25,7 @@
  /*******************************************************************************
  * Prototypes
  ******************************************************************************/
-#if defined(__cplusplus)
-extern "C" {
-#endif
+
 /*******************************************************************************
  * Variables
  ******************************************************************************/
@@ -65,8 +34,15 @@ extern "C" {
  * Code
  ******************************************************************************/
 
-#if defined(__cplusplus)
+void GpioInit()
+{
+	ERROR_GPIO->PDDR |= (1<<ERROR_PIN); 
+	ERROR_GPIO->PCOR |= (1<<ERROR_PIN); 
 }
-#endif
-#endif
+
+void ErrorSet()
+{
+	ERROR_GPIO->PDOR |= (1<<ERROR_PIN); 
+}
+
 /* EOF */

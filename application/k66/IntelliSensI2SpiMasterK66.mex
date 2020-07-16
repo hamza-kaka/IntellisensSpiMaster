@@ -3,6 +3,7 @@
    <common>
       <processor>MK66FN2M0xxx18</processor>
       <package>MK66FN2M0VLQ18</package>
+      <board></board>
       <mcu_data>ksdk2_0</mcu_data>
       <cores selected="core0">
          <core name="Cortex-M4F" id="core0" description="M4 core"/>
@@ -16,10 +17,14 @@
    </preferences>
    <tools>
       <pins name="Pins" version="6.0" enabled="true" update_project_code="true">
+         <generated_project_files>
+            <file path="board/pin_mux.c" update_enabled="true"/>
+            <file path="board/pin_mux.h" update_enabled="true"/>
+         </generated_project_files>
          <pins_profile>
             <processor_version>6.0.1</processor_version>
             <pin_labels>
-               <pin_label pin_num="131" pin_signal="PTD4/LLWU_P14/SPI0_PCS1/UART0_RTS_b/FTM0_CH4/FB_AD2/SDRAM_A10/EWM_IN/SPI1_PCS0" label="testPin" identifier="testPin"/>
+               <pin_label pin_num="131" pin_signal="PTD4/LLWU_P14/SPI0_PCS1/UART0_RTS_b/FTM0_CH4/FB_AD2/SDRAM_A10/EWM_IN/SPI1_PCS0" label="errorPin" identifier="errorPin"/>
             </pin_labels>
          </pins_profile>
          <functions_list>
@@ -67,6 +72,10 @@
          </functions_list>
       </pins>
       <clocks name="Clocks" version="6.0" enabled="true" update_project_code="true">
+         <generated_project_files>
+            <file path="board/clock_config.c" update_enabled="true"/>
+            <file path="board/clock_config.h" update_enabled="true"/>
+         </generated_project_files>
          <clocks_profile>
             <processor_version>6.0.1</processor_version>
          </clocks_profile>
@@ -131,12 +140,17 @@
          </clock_configurations>
       </clocks>
       <dcdx name="DCDx" version="2.0" enabled="false" update_project_code="true">
+         <generated_project_files/>
          <dcdx_profile>
             <processor_version>N/A</processor_version>
          </dcdx_profile>
          <dcdx_configurations/>
       </dcdx>
-      <periphs name="Peripherals" version="6.0" enabled="true" update_project_code="true">
+      <periphs name="Peripherals" version="6.0" enabled="true" update_project_code="false">
+         <generated_project_files>
+            <file path="board/peripherals.c" update_enabled="false"/>
+            <file path="board/peripherals.h" update_enabled="false"/>
+         </generated_project_files>
          <peripherals_profile>
             <processor_version>6.0.1</processor_version>
          </peripherals_profile>
@@ -158,6 +172,7 @@
          </components>
       </periphs>
       <tee name="TEE" version="1.0" enabled="false" update_project_code="true">
+         <generated_project_files/>
          <tee_profile>
             <processor_version>N/A</processor_version>
          </tee_profile>

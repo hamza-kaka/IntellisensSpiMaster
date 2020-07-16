@@ -19,9 +19,9 @@ AutoTestMode3 PROC
         MOVS     r0,#0
         STR      r0,[sp,#4]
         MOVS     r5,#0xfa
-        VLDR     s0,|L1.320|
+        VLDR     s0,|L1.364|
         VMOV.F32 s16,s0
-        VLDR     s0,|L1.320|
+        VLDR     s0,|L1.364|
         VMOV.F32 s17,s0
         MOVS     r6,#0
         MOVS     r0,#3
@@ -34,85 +34,99 @@ AutoTestMode3 PROC
         ADD      r1,sp,#8
         MOVS     r0,#0x87
         BL       ReadReg16
+        BL       WaitTillIdle
         ADD      r1,sp,#4
         MOVS     r0,#0x87
         BL       ReadReg16
+        BL       WaitTillIdle
         BL       SendStopConv
         LDRSH    r0,[sp,#8]
         LDRSH    r1,[sp,#4]
         CMP      r0,r1
-        BEQ      |L1.106|
+        BEQ      |L1.114|
         MOVS     r6,#1
-|L1.106|
+|L1.114|
+        VMOV.F32 s0,#3.00000000
+        BL       SysTickDelayUs
         MOVS     r0,#2
         BL       ChnlEnable
         BL       SendStartConv
         ADD      r1,sp,#0x1fc
         MOVS     r0,#0x86
         BL       ReadReg16
+        BL       WaitTillIdle
         ADD      r1,sp,#4
         MOVS     r0,#0x86
         BL       ReadReg16
+        BL       WaitTillIdle
         BL       SendStopConv
+        LDRSH    r0,[sp,#0x1fc]
+        LDRSH    r1,[sp,#4]
+        CMP      r0,r1
+        BEQ      |L1.174|
+        MOVS     r6,#1
+|L1.174|
         MOVS     r0,#3
         BL       ChnlEnable
         BL       SendStartConv
         MOVS     r4,#0
-        B        |L1.204|
-|L1.150|
+        B        |L1.250|
+|L1.188|
         ADD      r0,sp,#0x1fc
         ADD      r1,r0,r4,LSL #1
         MOVS     r0,#0x86
         BL       ReadReg16
+        BL       WaitTillIdle
         ADD      r0,sp,#8
         ADD      r1,r0,r4,LSL #1
         MOVS     r0,#0x87
         BL       ReadReg16
+        BL       WaitTillIdle
         ADD      r0,sp,#0x1fc
         LDRH     r0,[r0,r4,LSL #1]
-        CBZ      r0,|L1.190|
+        CBZ      r0,|L1.236|
         ADD      r0,sp,#8
         LDRH     r0,[r0,r4,LSL #1]
-        CBNZ     r0,|L1.202|
-|L1.190|
+        CBNZ     r0,|L1.248|
+|L1.236|
         VMOV.F32 s0,#1.00000000
         VADD.F32 s0,s16,s0
         VMOV.F32 s16,s0
-|L1.202|
+|L1.248|
         ADDS     r4,r4,#1
-|L1.204|
+|L1.250|
         CMP      r4,r5
-        BLT      |L1.150|
+        BLT      |L1.188|
         BL       SendStopConv
         VMOV     s0,r5
         VCVT.F32.S32 s0,s0
         VMOV.F32 s1,#2.00000000
         VMUL.F32 s1,s0,s1
         VDIV.F32 s0,s16,s1
-        VLDR     s1,|L1.324|
+        VLDR     s1,|L1.368|
         VMUL.F32 s0,s0,s1
         VMOV.F32 s16,s0
         VMOV.F32 s0,#30.00000000
         VCMPE.F32 s16,s0
         VMRS     APSR_nzcv,FPSCR
-        BLE      |L1.260|
+        BLE      |L1.306|
         MOVS     r6,#1
-|L1.260|
-        LDR      r0,|L1.328|
+|L1.306|
+        LDR      r0,|L1.372|
         LDRB     r0,[r0,#0]  ; spiI2Props
         CMP      r0,#8
-        BNE      |L1.292|
+        BNE      |L1.338|
         MOVS     r0,#0x10
         BL       FrameSizeSet
         MOV      r0,#0x5dc
         BL       SetConvRate
-        VLDR     s0,|L1.320|
+        VLDR     s0,|L1.364|
         VMOV.F32 s16,s0
         B        |L1.62|
-|L1.292|
+|L1.338|
         MOVS     r0,#8
         BL       FrameSizeSet
-        LDR      r0,|L1.332|
+        LDR      r0,|L1.376|
         BL       SetConvRate
         EOR      r0,r6,#1
         ADD      sp,sp,#0x3f0
@@ -120,14 +134,13 @@ AutoTestMode3 PROC
         POP      {r4-r6,pc}
         ENDP
 
-        DCW      0x0000
-|L1.320|
+|L1.364|
         DCFS     0x00000000 ; 0
-|L1.324|
+|L1.368|
         DCFS     0x42c80000 ; 100
-|L1.328|
+|L1.372|
         DCD      spiI2Props
-|L1.332|
+|L1.376|
         DCD      0x0007a120
 
         AREA ||.arm_vfe_header||, DATA, READONLY, NOALLOC, ALIGN=2
@@ -178,7 +191,9 @@ AutoTestMode3 PROC
         IMPORT ChnlEnable [CODE]
         IMPORT SendStartConv [CODE]
         IMPORT ReadReg16 [CODE]
+        IMPORT WaitTillIdle [CODE]
         IMPORT SendStopConv [CODE]
+        IMPORT SysTickDelayUs [CODE]
         IMPORT FrameSizeSet [CODE]
         IMPORT SetConvRate [CODE]
         IMPORT spiI2Props [DATA]

@@ -4,19 +4,22 @@
         REQUIRE8
         PRESERVE8
 
-        AREA ||i.main||, CODE, READONLY, ALIGN=1
+        AREA ||i.main||, CODE, READONLY, ALIGN=2
 
 main PROC
         BL       BOARD_InitBootClocks
         BL       BOARD_InitBootPins
         BL       InitSetup
-        BL       AutoTestMode3
-        BL       AutoTestMode4
+        LDR      r0,|L1.24|
+        BL       AutoTestComplete
         NOP      
-|L1.22|
-        B        |L1.22|
+|L1.20|
+        B        |L1.20|
         ENDP
 
+        DCW      0x0000
+|L1.24|
+        DCD      testResults
 
         AREA ||.arm_vfe_header||, DATA, READONLY, NOALLOC, ALIGN=2
 
@@ -73,8 +76,7 @@ __ARM_use_no_argv EQU 0
         IMPORT BOARD_InitBootClocks [CODE]
         IMPORT BOARD_InitBootPins [CODE]
         IMPORT InitSetup [CODE]
-        IMPORT AutoTestMode3 [CODE]
-        IMPORT AutoTestMode4 [CODE]
+        IMPORT AutoTestComplete [CODE]
 
         ATTR FILESCOPE
         ATTR SETVALUE Tag_ABI_PCS_wchar_t,2

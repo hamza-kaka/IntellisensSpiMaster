@@ -28,3 +28,4 @@
 .\objects\spitestapp.o: ..\..\HelpingModules\timers.h
 .\objects\spitestapp.o: ..\..\HelpingModules\dma.h
 .\objects\spitestapp.o: ..\..\I2Commands\I2Commands.h
+.\objects\spitestapp.o: ..\k66\gpio.h

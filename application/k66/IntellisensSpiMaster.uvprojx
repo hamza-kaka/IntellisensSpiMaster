@@ -1012,6 +1012,16 @@
               <FileType>5</FileType>
               <FilePath>..\..\HelpingModules\timers.h</FilePath>
             </File>
+            <File>
+              <FileName>gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>gpio.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\gpio.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

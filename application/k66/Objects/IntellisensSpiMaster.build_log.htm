@@ -22,13 +22,13 @@ Dialog DLL:      TCM.DLL V1.36.2.0
  
 <h2>Project:</h2>
 C:\TarazWorkDir\IntellisensSpiMaster\application\k66\IntellisensSpiMaster.uvprojx
-Project File Date:  07/03/2020
+Project File Date:  07/16/2020
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Target 1'
-compiling TestMode3.c...
-..\..\application\UserConfig.h(67): warning:  #1-D: last line of file ends without a newline
+compiling mainApp.c...
+..\..\application\UserConfig.h(72): warning:  #1-D: last line of file ends without a newline
   /* EOF */
 ..\..\spiApp\spiParams.h(110): warning:  #1295-D: Deprecated declaration InitSetup - give arg types
   	void InitSetup();
@@ -48,27 +48,17 @@ compiling TestMode3.c...
   	void WaitTillIdle();
 ..\..\spiApp\spiParams.h(149): warning:  #1-D: last line of file ends without a newline
   /* EOF */
-..\..\I2Commands\I2Commands.h(35): warning:  #1295-D: Deprecated declaration ActivateSlaveSpi - give arg types
-   void ActivateSlaveSpi();
-..\..\I2Commands\I2Commands.h(45): warning:  #1295-D: Deprecated declaration SendStopConv - give arg types
-   void SendStopConv();
-..\..\I2Commands\I2Commands.h(46): warning:  #1295-D: Deprecated declaration SendStartConv - give arg types
-   void SendStartConv();
-..\..\I2Commands\I2Commands.h(52): warning:  #1295-D: Deprecated declaration WaitTillIdle - give arg types
-   void WaitTillIdle();
-..\..\I2Commands\I2Commands.h(67): warning:  #1-D: last line of file ends without a newline
-  /* EOF */
-..\..\TestingFiles\TestMode3.c(42): warning:  #177-D: variable "mult"  was declared but never referenced
-  	float success = 0, mult = 0.0;
-..\..\TestingFiles\TestMode3.c(112): warning:  #1-D: last line of file ends without a newline
-  /* EOF */
-..\..\TestingFiles\TestMode3.c: 17 warnings, 0 errors
+mainApp.c(68): warning:  #111-D: statement is unreachable
+  return 0;
+mainApp.c(69): warning:  #1-D: last line of file ends without a newline
+  }
+mainApp.c: 12 warnings, 0 errors
 linking...
 ..\..\devices\MK66F18\arm\MK66FN2M0xxx18_flash.scf(67): warning: L6314W: No section matches pattern *(NonCacheable.init).
 ..\..\devices\MK66F18\arm\MK66FN2M0xxx18_flash.scf(68): warning: L6314W: No section matches pattern *(NonCacheable).
-Program Size: Code=13336 RO-data=1424 RW-data=136 ZI-data=2224  
+Program Size: Code=14128 RO-data=1440 RW-data=140 ZI-data=2224  
 Finished: 0 information, 2 warning and 0 error messages.
-".\Objects\IntellisensSpiMaster.axf" - 0 Error(s), 19 Warning(s).
+".\Objects\IntellisensSpiMaster.axf" - 0 Error(s), 14 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -82,7 +72,7 @@ Package Vendor: Keil
   C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:03
+Build Time Elapsed:  00:00:05
 </pre>
 </body>
 </html>

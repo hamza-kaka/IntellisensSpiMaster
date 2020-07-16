@@ -14,17 +14,17 @@ AutoTestMode4 PROC
         ADD      r0,sp,#0xc
         BL       __aeabi_memclr4
         MOVS     r5,#0x64
-        VLDR     s0,|L1.544|
+        VLDR     s0,|L1.564|
         VMOV.F32 s16,s0
-        VLDR     s0,|L1.544|
+        VLDR     s0,|L1.564|
         VMOV.F32 s19,s0
-        VLDR     s0,|L1.544|
+        VLDR     s0,|L1.564|
         VMOV.F32 s17,s0
-        VLDR     s0,|L1.544|
+        VLDR     s0,|L1.564|
         VMOV.F32 s18,s0
-        VLDR     s0,|L1.544|
+        VLDR     s0,|L1.564|
         VSTR     s0,[sp,#8]
-        VLDR     s0,|L1.544|
+        VLDR     s0,|L1.564|
         VSTR     s0,[sp,#4]
         MOVS     r4,#0
         MOVS     r0,#4
@@ -33,23 +33,23 @@ AutoTestMode4 PROC
         BL       FrameSizeSet
         NOP      
 |L1.86|
-        LDR      r0,|L1.548|
+        LDR      r0,|L1.568|
         LDRB     r0,[r0,#0]  ; spiI2Props
         CMP      r0,#0x10
         BNE      |L1.102|
         MOVS     r0,#1
-        LDR      r1,|L1.552|
+        LDR      r1,|L1.572|
         STRB     r0,[r1,#0]
         B        |L1.108|
 |L1.102|
         MOVS     r0,#0
-        LDR      r1,|L1.552|
+        LDR      r1,|L1.572|
         STRB     r0,[r1,#0]
 |L1.108|
         MOVS     r0,#3
         BL       ChnlEnable
         BL       SendStartConv
-        LDR      r0,|L1.556|
+        LDR      r0,|L1.576|
         MOVS     r1,#0
         ADD      r2,r0,#0x100
         ADD      r2,r2,r1,LSL #4
@@ -69,7 +69,7 @@ AutoTestMode4 PROC
         VADD.F32 s0,s0,s1
         VSTR     s0,[sp,#4]
 |L1.174|
-        LDR      r0,|L1.556|
+        LDR      r0,|L1.576|
         MOVS     r1,#0
         ADD      r2,r0,#0x100
         ADD      r2,r2,r1,LSL #4
@@ -78,7 +78,7 @@ AutoTestMode4 PROC
         CMP      r2,#0
         BEQ      |L1.150|
         BL       SendStopConv
-        LDR      r0,|L1.556|
+        LDR      r0,|L1.576|
         MOVS     r1,#0
         ADD      r2,r0,#0x100
         ADD      r2,r2,r1,LSL #4
@@ -88,30 +88,28 @@ AutoTestMode4 PROC
         ADD      r2,r2,r1,LSL #4
         STR      r3,[r2,#8]
         NOP      
-        MOV      r1,r0
-        MOVS     r0,#0
         MOVS     r2,#1
-        ADD      r3,r1,#0x100
-        ADD      r3,r3,r0,LSL #4
+        ADD      r3,r0,#0x100
+        ADD      r3,r3,r1,LSL #4
         STR      r2,[r3,#0xc]
         NOP      
         MOVS     r0,#2
         BL       CLOCK_GetFreq
         VMOV     s0,r0
         VCVT.F32.U32 s1,s0
-        LDR      r0,|L1.560|
+        LDR      r0,|L1.580|
         LDR      r0,[r0,#0]
         VMOV     s0,r0
         VCVT.F32.U32 s0,s0
         VDIV.F32 s2,s0,s1
         VMOV.F32 s18,s2
-        LDR      r0,|L1.548|
+        LDR      r0,|L1.568|
         LDRH     r0,[r0,#0xe]  ; spiI2Props
         VMOV     s0,r0
         VCVT.F32.U32 s0,s0
         VLDR     s1,[sp,#4]
         VMUL.F32 s1,s0,s1
-        LDR      r0,|L1.548|
+        LDR      r0,|L1.568|
         VLDR     s0,[r0,#8]
         VCVT.F32.S32 s2,s0
         VDIV.F32 s0,s1,s2
@@ -126,51 +124,58 @@ AutoTestMode4 PROC
         VLDR     s0,[r0,#0x10]
         VCVT.F32.U32 s0,s0
         VDIV.F32 s1,s17,s0
-        VLDR     s0,|L1.564|
+        VLDR     s0,|L1.584|
         VMUL.F32 s0,s1,s0
         VMOV.F32 s1,#5.00000000
         VCMPE.F32 s0,s1
         VMRS     APSR_nzcv,FPSCR
-        BLE      |L1.390|
+        BLE      |L1.410|
         LDRB     r0,[r0,#0]  ; spiI2Props
         CMP      r0,#0x10
-        BNE      |L1.390|
+        BNE      |L1.410|
+        LDR      r0,|L1.568|
+        VLDR     s0,[r0,#0x10]
+        VCVT.F32.U32 s0,s0
+        VLDR     s1,[sp,#8]
+        VCMPE.F32 s0,s1
+        VMRS     APSR_nzcv,FPSCR
+        BLE      |L1.410|
         MOVS     r4,#1
-|L1.390|
+|L1.410|
         MOVS     r0,#0
-        B        |L1.416|
-|L1.394|
+        B        |L1.436|
+|L1.414|
         ADD      r1,sp,#0x20c
         LDRH     r1,[r1,r0,LSL #1]
-        CBNZ     r1,|L1.414|
+        CBNZ     r1,|L1.434|
         VMOV.F32 s0,#1.00000000
         VADD.F32 s0,s16,s0
         VMOV.F32 s16,s0
-|L1.414|
+|L1.434|
         ADDS     r0,r0,#1
-|L1.416|
-        LDR      r1,|L1.548|
+|L1.436|
+        LDR      r1,|L1.568|
         LDRH     r1,[r1,#0xe]  ; spiI2Props
         CMP      r1,r0
-        BGT      |L1.394|
-        LDR      r0,|L1.548|
+        BGT      |L1.414|
+        LDR      r0,|L1.568|
         LDRH     r0,[r0,#0xe]  ; spiI2Props
         VMOV     s0,r0
         VCVT.F32.U32 s1,s0
         VDIV.F32 s0,s16,s1
-        VLDR     s1,|L1.564|
+        VLDR     s1,|L1.584|
         VMUL.F32 s0,s0,s1
         VMOV.F32 s16,s0
         VMOV.F32 s0,#30.00000000
         VCMPE.F32 s16,s0
         VMRS     APSR_nzcv,FPSCR
-        BLE      |L1.468|
+        BLE      |L1.488|
         MOVS     r4,#1
-|L1.468|
-        LDR      r0,|L1.548|
+|L1.488|
+        LDR      r0,|L1.568|
         LDRB     r0,[r0,#0]  ; spiI2Props
         CMP      r0,#0x10
-        BNE      |L1.514|
+        BNE      |L1.534|
         MOVS     r0,#8
         BL       FrameSizeSet
         MOV      r0,#0x5dc
@@ -178,17 +183,17 @@ AutoTestMode4 PROC
         MOVS     r1,#7
         MOVS     r0,#1
         BL       SetBurst
-        VLDR     s0,|L1.544|
+        VLDR     s0,|L1.564|
         VMOV.F32 s16,s0
         MOVS     r0,#0
-        LDR      r1,|L1.552|
+        LDR      r1,|L1.572|
         STRB     r0,[r1,#0]
         B        |L1.86|
-|L1.514|
+|L1.534|
         MOVS     r1,#0
         MOVS     r0,#1
         BL       SetBurst
-        LDR      r0,|L1.568|
+        LDR      r0,|L1.588|
         BL       SetConvRate
         EOR      r0,r4,#1
         ADD      sp,sp,#0x60c
@@ -197,19 +202,19 @@ AutoTestMode4 PROC
         ENDP
 
         DCW      0x0000
-|L1.544|
-        DCFS     0x00000000 ; 0
-|L1.548|
-        DCD      spiI2Props
-|L1.552|
-        DCD      convRateTest
-|L1.556|
-        DCD      0x40037000
-|L1.560|
-        DCD      0x40037100
 |L1.564|
-        DCFS     0x42c80000 ; 100
+        DCFS     0x00000000 ; 0
 |L1.568|
+        DCD      spiI2Props
+|L1.572|
+        DCD      convRateTest
+|L1.576|
+        DCD      0x40037000
+|L1.580|
+        DCD      0x40037100
+|L1.584|
+        DCFS     0x42c80000 ; 100
+|L1.588|
         DCD      0x0007a120
 
         AREA ||.arm_vfe_header||, DATA, READONLY, NOALLOC, ALIGN=2

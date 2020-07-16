@@ -106,7 +106,7 @@ bool AutoTestMode4()
 	time  = ((float)(PIT->CHANNEL[kPIT_Chnl_0].LDVAL /*- time*/)/(float)PIT_SOURCE_CLOCK); 
 	expConvRate = (((spiI2Props.burstSize*bufferCount)/spiI2Props.activeChnls)/**testNum*/)/time;
 	dif = fabsf(expConvRate - spiI2Props.convRate);
-	if((dif/spiI2Props.convRate)*100 >5 && spiI2Props.frameSize == FRAME_SIZE16)
+	if((dif/spiI2Props.convRate)*100 >5 && spiI2Props.frameSize == FRAME_SIZE16 && (expConvRate < spiI2Props.convRate))
 		error = true;
 		
 	#if CURRENT_COMP_TEST
