@@ -1,1238 +1,0 @@
-Dependencies for Project 'IntellisensSpiMaster', Target 'Target 1': (DO NOT MODIFY !)
-F (.\mainApp.c)(0x5F10383B)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\mainapp.o --omf_browse .\objects\mainapp.crf --depend .\objects\mainapp.d)
-I (..\..\devices\MK66F18\utilities\debug_console\fsl_debug_console.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (..\..\components\serial_manager\serial_manager.h)(0x5D7EB19E)
-I (..\..\components\serial_manager\serial_port_uart.h)(0x5D7EB19E)
-I (..\..\spiApp\spiParams.h)(0x5EFF0850)
-I (.\board\clock_config.h)(0x5EFDA9D3)
-I (.\board\pin_mux.h)(0x5F102F8B)
-I (..\..\devices\MK66F18\drivers\fsl_dspi.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_pit.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_edma.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_dmamux.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBA406)
-I (..\..\application\UserConfig.h)(0x5F1031CF)
-F (..\..\spiApp\spiParams.h)(0x5EFF0850)()
-F (..\..\spiApp\spiTestApp.c)(0x5F103202)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\spitestapp.o --omf_browse .\objects\spitestapp.crf --depend .\objects\spitestapp.d)
-I (..\..\spiApp\spiParams.h)(0x5EFF0850)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (.\board\clock_config.h)(0x5EFDA9D3)
-I (.\board\pin_mux.h)(0x5F102F8B)
-I (..\..\devices\MK66F18\drivers\fsl_dspi.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_pit.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_edma.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_dmamux.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBA406)
-I (..\..\application\UserConfig.h)(0x5F1031CF)
-I (..\..\SpiCommunication\spiComm.h)(0x5EFEDE12)
-I (..\..\HelpingModules\timers.h)(0x5EFEE475)
-I (..\..\HelpingModules\dma.h)(0x5EFEE475)
-I (..\..\I2Commands\I2Commands.h)(0x5EFF0DAA)
-I (..\..\HelpingModules\gpio.h)(0x5F103202)
-F (.\board\clock_config.c)(0x5EFDA9D3)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\clock_config.o --omf_browse .\objects\clock_config.crf --depend .\objects\clock_config.d)
-I (board\clock_config.h)(0x5EFDA9D3)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (.\board\clock_config.h)(0x5EFDA9D3)()
-F (.\board\pin_mux.c)(0x5F102F8B)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\pin_mux.o --omf_browse .\objects\pin_mux.crf --depend .\objects\pin_mux.d)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_port.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_gpio.h)(0x5D7EB1A0)
-I (board\pin_mux.h)(0x5F102F8B)
-F (.\board\pin_mux.h)(0x5F102F8B)()
-F (..\..\devices\MK66F18\drivers\fsl_adc16.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_adc16.o --omf_browse .\objects\fsl_adc16.crf --depend .\objects\fsl_adc16.d)
-I (..\..\devices\MK66F18\drivers\fsl_adc16.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_adc16.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_cache.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_cache.o --omf_browse .\objects\fsl_cache.crf --depend .\objects\fsl_cache.d)
-I (..\..\devices\MK66F18\drivers\fsl_cache.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_cache.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_clock.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_clock.o --omf_browse .\objects\fsl_clock.crf --depend .\objects\fsl_clock.d)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_cmp.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_cmp.o --omf_browse .\objects\fsl_cmp.crf --depend .\objects\fsl_cmp.d)
-I (..\..\devices\MK66F18\drivers\fsl_cmp.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_cmp.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_cmt.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_cmt.o --omf_browse .\objects\fsl_cmt.crf --depend .\objects\fsl_cmt.d)
-I (..\..\devices\MK66F18\drivers\fsl_cmt.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_cmt.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_common.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_common.o --omf_browse .\objects\fsl_common.crf --depend .\objects\fsl_common.d)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_crc.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_crc.o --omf_browse .\objects\fsl_crc.crf --depend .\objects\fsl_crc.d)
-I (..\..\devices\MK66F18\drivers\fsl_crc.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_crc.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_dac.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_dac.o --omf_browse .\objects\fsl_dac.crf --depend .\objects\fsl_dac.d)
-I (..\..\devices\MK66F18\drivers\fsl_dac.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_dac.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_dmamux.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_dmamux.o --omf_browse .\objects\fsl_dmamux.crf --depend .\objects\fsl_dmamux.d)
-I (..\..\devices\MK66F18\drivers\fsl_dmamux.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_dmamux.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_dspi.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_dspi.o --omf_browse .\objects\fsl_dspi.crf --depend .\objects\fsl_dspi.d)
-I (..\..\devices\MK66F18\drivers\fsl_dspi.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_dspi.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_dspi_edma.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_dspi_edma.o --omf_browse .\objects\fsl_dspi_edma.crf --depend .\objects\fsl_dspi_edma.d)
-I (..\..\devices\MK66F18\drivers\fsl_dspi_edma.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_dspi.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_edma.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_dspi_edma.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_edma.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_edma.o --omf_browse .\objects\fsl_edma.crf --depend .\objects\fsl_edma.d)
-I (..\..\devices\MK66F18\drivers\fsl_edma.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_edma.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_enet.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_enet.o --omf_browse .\objects\fsl_enet.crf --depend .\objects\fsl_enet.d)
-I (..\..\devices\MK66F18\drivers\fsl_enet.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_enet.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_ewm.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_ewm.o --omf_browse .\objects\fsl_ewm.crf --depend .\objects\fsl_ewm.d)
-I (..\..\devices\MK66F18\drivers\fsl_ewm.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_ewm.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_flash.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_flexbus.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_flexbus.o --omf_browse .\objects\fsl_flexbus.crf --depend .\objects\fsl_flexbus.d)
-I (..\..\devices\MK66F18\drivers\fsl_flexbus.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_flexbus.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_flexcan.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_flexcan.o --omf_browse .\objects\fsl_flexcan.crf --depend .\objects\fsl_flexcan.d)
-I (..\..\devices\MK66F18\drivers\fsl_flexcan.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_flexcan.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_ftfx_adapter.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_ftfx_cache.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_ftfx_cache.o --omf_browse .\objects\fsl_ftfx_cache.crf --depend .\objects\fsl_ftfx_cache.d)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_cache.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_controller.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_adapter.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_utilities.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_ftfx_cache.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_ftfx_controller.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_ftfx_controller.o --omf_browse .\objects\fsl_ftfx_controller.crf --depend .\objects\fsl_ftfx_controller.d)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_controller.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_adapter.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_utilities.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_ftfx_controller.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_ftfx_features.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_ftfx_flash.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_ftfx_flash.o --omf_browse .\objects\fsl_ftfx_flash.crf --depend .\objects\fsl_ftfx_flash.d)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_flash.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_controller.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_adapter.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_utilities.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_ftfx_flash.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_ftfx_flexnvm.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_ftfx_flexnvm.o --omf_browse .\objects\fsl_ftfx_flexnvm.crf --depend .\objects\fsl_ftfx_flexnvm.d)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_flexnvm.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_controller.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_adapter.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_ftfx_utilities.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_ftfx_flexnvm.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_ftfx_utilities.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_ftm.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_ftm.o --omf_browse .\objects\fsl_ftm.crf --depend .\objects\fsl_ftm.d)
-I (..\..\devices\MK66F18\drivers\fsl_ftm.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_ftm.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_gpio.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_gpio.o --omf_browse .\objects\fsl_gpio.crf --depend .\objects\fsl_gpio.d)
-I (..\..\devices\MK66F18\drivers\fsl_gpio.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_gpio.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_i2c.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_i2c.o --omf_browse .\objects\fsl_i2c.crf --depend .\objects\fsl_i2c.d)
-I (..\..\devices\MK66F18\drivers\fsl_i2c.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_i2c.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_i2c_edma.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_i2c_edma.o --omf_browse .\objects\fsl_i2c_edma.crf --depend .\objects\fsl_i2c_edma.d)
-I (..\..\devices\MK66F18\drivers\fsl_i2c_edma.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_i2c.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_edma.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_i2c_edma.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_llwu.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_llwu.o --omf_browse .\objects\fsl_llwu.crf --depend .\objects\fsl_llwu.d)
-I (..\..\devices\MK66F18\drivers\fsl_llwu.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_llwu.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_lmem_cache.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_lmem_cache.o --omf_browse .\objects\fsl_lmem_cache.crf --depend .\objects\fsl_lmem_cache.d)
-I (..\..\devices\MK66F18\drivers\fsl_lmem_cache.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_lmem_cache.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_lptmr.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_lptmr.o --omf_browse .\objects\fsl_lptmr.crf --depend .\objects\fsl_lptmr.d)
-I (..\..\devices\MK66F18\drivers\fsl_lptmr.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_lptmr.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_lpuart.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_lpuart.o --omf_browse .\objects\fsl_lpuart.crf --depend .\objects\fsl_lpuart.d)
-I (..\..\devices\MK66F18\drivers\fsl_lpuart.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_lpuart.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_lpuart_edma.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_lpuart_edma.o --omf_browse .\objects\fsl_lpuart_edma.crf --depend .\objects\fsl_lpuart_edma.d)
-I (..\..\devices\MK66F18\drivers\fsl_lpuart_edma.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_lpuart.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_edma.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_lpuart_edma.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_pdb.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_pdb.o --omf_browse .\objects\fsl_pdb.crf --depend .\objects\fsl_pdb.d)
-I (..\..\devices\MK66F18\drivers\fsl_pdb.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_pdb.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_pit.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_pit.o --omf_browse .\objects\fsl_pit.crf --depend .\objects\fsl_pit.d)
-I (..\..\devices\MK66F18\drivers\fsl_pit.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_pit.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_pmc.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_pmc.o --omf_browse .\objects\fsl_pmc.crf --depend .\objects\fsl_pmc.d)
-I (..\..\devices\MK66F18\drivers\fsl_pmc.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_pmc.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_port.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_rcm.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_rcm.o --omf_browse .\objects\fsl_rcm.crf --depend .\objects\fsl_rcm.d)
-I (..\..\devices\MK66F18\drivers\fsl_rcm.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_rcm.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_rnga.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_rnga.o --omf_browse .\objects\fsl_rnga.crf --depend .\objects\fsl_rnga.d)
-I (..\..\devices\MK66F18\drivers\fsl_rnga.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_rnga.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_rtc.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_rtc.o --omf_browse .\objects\fsl_rtc.crf --depend .\objects\fsl_rtc.d)
-I (..\..\devices\MK66F18\drivers\fsl_rtc.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_rtc.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_sai.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_sai.o --omf_browse .\objects\fsl_sai.crf --depend .\objects\fsl_sai.d)
-I (..\..\devices\MK66F18\drivers\fsl_sai.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_sai.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_sai_edma.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_sai_edma.o --omf_browse .\objects\fsl_sai_edma.crf --depend .\objects\fsl_sai_edma.d)
-I (..\..\devices\MK66F18\drivers\fsl_sai_edma.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_edma.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_sai.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_sai_edma.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_sdhc.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_sdhc.o --omf_browse .\objects\fsl_sdhc.crf --depend .\objects\fsl_sdhc.d)
-I (..\..\devices\MK66F18\drivers\fsl_sdhc.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_sdhc.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_sdramc.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_sdramc.o --omf_browse .\objects\fsl_sdramc.crf --depend .\objects\fsl_sdramc.d)
-I (..\..\devices\MK66F18\drivers\fsl_sdramc.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_sdramc.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_sim.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_sim.o --omf_browse .\objects\fsl_sim.crf --depend .\objects\fsl_sim.d)
-I (..\..\devices\MK66F18\drivers\fsl_sim.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_sim.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_smc.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_smc.o --omf_browse .\objects\fsl_smc.crf --depend .\objects\fsl_smc.d)
-I (..\..\devices\MK66F18\drivers\fsl_smc.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_smc.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_sysmpu.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_sysmpu.o --omf_browse .\objects\fsl_sysmpu.crf --depend .\objects\fsl_sysmpu.d)
-I (..\..\devices\MK66F18\drivers\fsl_sysmpu.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_sysmpu.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_tpm.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_tpm.o --omf_browse .\objects\fsl_tpm.crf --depend .\objects\fsl_tpm.d)
-I (..\..\devices\MK66F18\drivers\fsl_tpm.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_tpm.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_tsi_v4.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_tsi_v4.o --omf_browse .\objects\fsl_tsi_v4.crf --depend .\objects\fsl_tsi_v4.d)
-I (..\..\devices\MK66F18\drivers\fsl_tsi_v4.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_tsi_v4.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_uart.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_uart.o --omf_browse .\objects\fsl_uart.crf --depend .\objects\fsl_uart.d)
-I (..\..\devices\MK66F18\drivers\fsl_uart.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_uart.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_uart_edma.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_uart_edma.o --omf_browse .\objects\fsl_uart_edma.crf --depend .\objects\fsl_uart_edma.d)
-I (..\..\devices\MK66F18\drivers\fsl_uart_edma.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_uart.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_edma.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_uart_edma.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_vref.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_vref.o --omf_browse .\objects\fsl_vref.crf --depend .\objects\fsl_vref.d)
-I (..\..\devices\MK66F18\drivers\fsl_vref.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_vref.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\drivers\fsl_wdog.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\fsl_wdog.o --omf_browse .\objects\fsl_wdog.crf --depend .\objects\fsl_wdog.d)
-I (..\..\devices\MK66F18\drivers\fsl_wdog.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\drivers\fsl_wdog.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\system_MK66F18.c)(0x5D7EB1A0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\system_mk66f18.o --omf_browse .\objects\system_mk66f18.crf --depend .\objects\system_mk66f18.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-F (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)()
-F (..\..\devices\MK66F18\arm\startup_MK66F18.s)(0x5D7EB1A0)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 528" --pd "MK66FN2M0xxx18 SETA 1"--list .\listings\startup_mk66f18.lst --xref -o .\objects\startup_mk66f18.o --depend .\objects\startup_mk66f18.d)
-F (..\..\SpiCommunication\spiComm.c)(0x5EFF0A56)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\spicomm.o --omf_browse .\objects\spicomm.crf --depend .\objects\spicomm.d)
-I (..\..\spiApp\spiParams.h)(0x5EFF0850)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (.\board\clock_config.h)(0x5EFDA9D3)
-I (.\board\pin_mux.h)(0x5F102F8B)
-I (..\..\devices\MK66F18\drivers\fsl_dspi.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_pit.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_edma.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_dmamux.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBA406)
-I (..\..\application\UserConfig.h)(0x5F1031CF)
-F (..\..\SpiCommunication\spiComm.h)(0x5EFEDE12)()
-F (..\..\I2Commands\I2Commands.c)(0x5EFF0DAA)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\i2commands.o --omf_browse .\objects\i2commands.crf --depend .\objects\i2commands.d)
-I (..\..\spiApp\spiParams.h)(0x5EFF0850)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (.\board\clock_config.h)(0x5EFDA9D3)
-I (.\board\pin_mux.h)(0x5F102F8B)
-I (..\..\devices\MK66F18\drivers\fsl_dspi.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_pit.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_edma.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_dmamux.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBA406)
-I (..\..\application\UserConfig.h)(0x5F1031CF)
-I (..\..\SpiCommunication\spiComm.h)(0x5EFEDE12)
-I (..\..\HelpingModules\timers.h)(0x5EFEE475)
-I (..\..\HelpingModules\dma.h)(0x5EFEE475)
-I (..\..\I2Commands\I2Commands.h)(0x5EFF0DAA)
-F (..\..\I2Commands\I2Commands.h)(0x5EFF0DAA)()
-F (..\..\HelpingModules\dma.c)(0x5EFF08A4)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\dma.o --omf_browse .\objects\dma.crf --depend .\objects\dma.d)
-I (..\..\spiApp\spiParams.h)(0x5EFF0850)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (.\board\clock_config.h)(0x5EFDA9D3)
-I (.\board\pin_mux.h)(0x5F102F8B)
-I (..\..\devices\MK66F18\drivers\fsl_dspi.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_pit.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_edma.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_dmamux.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBA406)
-I (..\..\application\UserConfig.h)(0x5F1031CF)
-I (..\..\HelpingModules\dma.h)(0x5EFEE475)
-F (..\..\HelpingModules\dma.h)(0x5EFEE475)()
-F (..\..\HelpingModules\timers.c)(0x5EFF0850)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
-I (..\..\spiApp\spiParams.h)(0x5EFF0850)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (.\board\clock_config.h)(0x5EFDA9D3)
-I (.\board\pin_mux.h)(0x5F102F8B)
-I (..\..\devices\MK66F18\drivers\fsl_dspi.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_pit.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_edma.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_dmamux.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBA406)
-I (..\..\application\UserConfig.h)(0x5F1031CF)
-I (..\..\HelpingModules\timers.h)(0x5EFEE475)
-F (..\..\HelpingModules\timers.h)(0x5EFEE475)()
-F (..\..\HelpingModules\gpio.c)(0x5F103202)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
-I (..\..\application\UserConfig.h)(0x5F1031CF)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (..\..\HelpingModules\gpio.h)(0x5F103202)()
-F (..\..\TestingFiles\TestMode1.c)(0x5EFF0C17)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\testmode1.o --omf_browse .\objects\testmode1.crf --depend .\objects\testmode1.d)
-I (..\..\spiApp\spiParams.h)(0x5EFF0850)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (.\board\clock_config.h)(0x5EFDA9D3)
-I (.\board\pin_mux.h)(0x5F102F8B)
-I (..\..\devices\MK66F18\drivers\fsl_dspi.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_pit.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_edma.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_dmamux.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBA406)
-I (..\..\application\UserConfig.h)(0x5F1031CF)
-I (..\..\I2Commands\I2Commands.h)(0x5EFF0DAA)
-F (..\..\TestingFiles\TestMode2.c)(0x5EFF0C1A)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\testmode2.o --omf_browse .\objects\testmode2.crf --depend .\objects\testmode2.d)
-I (..\..\spiApp\spiParams.h)(0x5EFF0850)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (.\board\clock_config.h)(0x5EFDA9D3)
-I (.\board\pin_mux.h)(0x5F102F8B)
-I (..\..\devices\MK66F18\drivers\fsl_dspi.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_pit.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_edma.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_dmamux.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBA406)
-I (..\..\application\UserConfig.h)(0x5F1031CF)
-I (..\..\I2Commands\I2Commands.h)(0x5EFF0DAA)
-F (..\..\TestingFiles\TestMode3.c)(0x5F10299C)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\testmode3.o --omf_browse .\objects\testmode3.crf --depend .\objects\testmode3.d)
-I (..\..\spiApp\spiParams.h)(0x5EFF0850)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (.\board\clock_config.h)(0x5EFDA9D3)
-I (.\board\pin_mux.h)(0x5F102F8B)
-I (..\..\devices\MK66F18\drivers\fsl_dspi.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_pit.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_edma.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_dmamux.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBA406)
-I (..\..\application\UserConfig.h)(0x5F1031CF)
-I (..\..\I2Commands\I2Commands.h)(0x5EFF0DAA)
-I (..\..\HelpingModules\timers.h)(0x5EFEE475)
-F (..\..\TestingFiles\TestMode4.c)(0x5F10372B)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\testmode4.o --omf_browse .\objects\testmode4.crf --depend .\objects\testmode4.d)
-I (..\..\spiApp\spiParams.h)(0x5EFF0850)
-I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBA40E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBA412)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBA412)
-I (..\..\devices\MK66F18\fsl_device_registers.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18.h)(0x5D7EB1A0)
-I (..\..\CMSIS\Include\core_cm4.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_version.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_compiler.h)(0x5D7EB19C)
-I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
-I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-I (.\board\clock_config.h)(0x5EFDA9D3)
-I (.\board\pin_mux.h)(0x5F102F8B)
-I (..\..\devices\MK66F18\drivers\fsl_dspi.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_pit.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_edma.h)(0x5D7EB1A0)
-I (..\..\devices\MK66F18\drivers\fsl_dmamux.h)(0x5D7EB1A0)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBA406)
-I (..\..\application\UserConfig.h)(0x5F1031CF)
-I (..\..\I2Commands\I2Commands.h)(0x5EFF0DAA)
-I (..\..\HelpingModules\timers.h)(0x5EFEE475)
-F (..\UserConfig.h)(0x5F1031CF)()
