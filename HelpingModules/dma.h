@@ -1,6 +1,6 @@
 /*! 
-@file 
-@brief 
+@file dma.h
+@brief  definitions and function prototypes related to DMA's 
 @details 
 
 @author Hamza Naeem Kakakhel

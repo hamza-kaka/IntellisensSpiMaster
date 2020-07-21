@@ -1,6 +1,6 @@
 /*! 
-@file 
-@brief 
+@file gpio.h
+@brief  function prototypes related to gpio's
 @details 
 
 @author Hamza Naeem Kakakhel

@@ -1,6 +1,6 @@
 /*! 
-@file 
-@brief 
+@file spiComm.c
+@brief  functions for SPI communication , HAL 
 @details 
 
 @author Hamza Naeem Kakakhel
@@ -15,10 +15,10 @@
 /*******************************************************************************
  * Defines
  ******************************************************************************/
-#define DEF_FRMSIZE (8)
+#define DEF_FRMSIZE (8) //defulat frame size
 
-#define TIME_BW_TSFR_NS 0
-#define  PCS_TO_CLK 35
+#define TIME_BW_TSFR_NS 0 
+#define  PCS_TO_CLK 35 //slave sselect to clock activation time 
 
 /*******************************************************************************
  * Enums
@@ -46,6 +46,7 @@ static void ClearSpiFlags();
 {
 	SPI_MODULE_NO->MCR &= ~(SPI_MCR_HALT(1)); 
 }
+
 
 static void ClearSpiFlags()
 {
@@ -104,7 +105,7 @@ void HaltSpiTransfer()
 
 
 
-
+/*! @brief  send dummy data via SPI */
  void SendDummy()
 {
 	uint16_t dummy =0;
@@ -118,7 +119,10 @@ void HaltSpiTransfer()
 		SPI2->SR  = SPI_SR_RFDF(1) | SPI_SR_TCF(1);
 }
 
-
+/*!
+@brief  send data via SPI
+@param  data to be sent 
+*/
  void SendSpi(uint16_t txdata)
 {
 	if(spiI2Props.frameSize == FRAME_SIZE8)
@@ -132,6 +136,10 @@ void HaltSpiTransfer()
 }
 
 
+/*!
+@brief  reads recieved data via SPI
+@returns  recieved data
+*/
  uint16_t ReadSpi()
 {
 		uint16_t dummy =0;
@@ -148,6 +156,10 @@ void HaltSpiTransfer()
 		 return dummy;
 }
 
+/*!
+@brief  recieves data via SPI with continous slave select line
+@returns  recieved data
+*/
  uint16_t ReadSpiBurst()
 {
 		uint16_t dummy =0;

@@ -1,6 +1,6 @@
 /*! 
-@file 
-@brief 
+@file TestMode1.c
+@brief  tests if mode 1 (once single read) works fine
 @details 
 
 @author Hamza Naeem Kakakhel
@@ -35,6 +35,12 @@
 /*******************************************************************************
  * Code
  ******************************************************************************/
+ 
+ /*!
+ @brief  tests mode 1, checking channel independence and data intregrity in both frames and different conversion rates 
+ @param  none 
+ @returns  true if test is cleared and false if test is failed 
+ */
 bool AutoTestMode1()
 {
 	short resultCh1[250]={0}, resultCh2[250]={0}, temp=0, testNum =250;

@@ -1015,12 +1015,12 @@
             <File>
               <FileName>gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\gpio.c</FilePath>
+              <FilePath>..\..\HelpingModules\gpio.c</FilePath>
             </File>
             <File>
               <FileName>gpio.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\gpio.h</FilePath>
+              <FilePath>..\..\HelpingModules\gpio.h</FilePath>
             </File>
           </Files>
         </Group>

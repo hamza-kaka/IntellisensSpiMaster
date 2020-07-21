@@ -1,6 +1,6 @@
 /*! 
-@file 
-@brief 
+@file spiTestApp.c
+@brief  contains method for testing of SPI functions and initialization 
 @details 
 
 @author Hamza Naeem Kakakhel
@@ -36,6 +36,7 @@
 /*******************************************************************************
  * Variables
  ******************************************************************************/
+ /* initializaing struct vars */
  
  spi_i2_props_t spiI2Props = 
 {
@@ -69,7 +70,10 @@ void InitSetup()
 	ActivateSlaveSpi();
 }
 
-
+/*!
+@brief  auto test for all 4 modes 
+@param  result array of tests , a true in return indicates test is clear
+*/
 void AutoTestComplete(bool * testResults)
 {
 	bool (*testFuncs[NO_OF_MODES])(void) = {AutoTestMode1,AutoTestMode2,AutoTestMode3,AutoTestMode4};

@@ -1,6 +1,6 @@
 /*! 
-@file 
-@brief 
+@file TestMode4.c
+@brief  tests I2 via SPI for mode 4 (continous bursts)
 @details 
 
 @author Hamza Naeem Kakakhel
@@ -38,6 +38,13 @@ extern bool convRateTest;
 /*******************************************************************************
  * Code
  ******************************************************************************/
+ 
+  /*!
+ @brief  tests mode 4, checking channel independence(if selected) and data intregrity in both frames and different conversion rates 
+ @param  none 
+ @returns  true if test is cleared and false if test is failed 
+ */
+ 
 bool AutoTestMode4()
 {
 	short resultChnls[BURST_512], resultCh1[BURST_512/2], resultCh2[BURST_512/2] = {0}, testNum =100;

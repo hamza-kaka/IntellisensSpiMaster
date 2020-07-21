@@ -45,7 +45,10 @@
 }
 
 
-
+/*!
+@brief  creates delay usign sys tick timer 
+@param  delay in microseconds
+ */
  void SysTickDelayUs(float delay)
 {
 	SysTick->LOAD = SystemCoreClock*delay/1000000;

@@ -1,7 +1,7 @@
 /*! 
-@file 
-@brief 
-@details 
+@file spiParams.h
+@brief  definitions and vars for SPI communication 
+@details  defiinitions related to the SPI comm of I2
 
 @author Hamza Naeem Kakakhel
 @copyright Taraz Technologies Pvt. Ltd.

@@ -36,7 +36,7 @@
 /*******************************************************************************
  * Code
  ******************************************************************************/
-
+/*! @brief  interrupt handler  */
 void DMA14_DMA30_IRQHandler(void)
 {
 	DMA0->CINT = DMA_CINT_CINT(14);
@@ -44,12 +44,18 @@ void DMA14_DMA30_IRQHandler(void)
 
 } 
 
+/*! @brief  disables DMA to take ay requests and the SPI module to generate any requests */
 void StopDma()
 {
 	DMA->ERQ = 0;
 	SPI_MODULE_NO->RSER =0;
 }
 
+/*!
+@brief  enables DMA requests and stsrts DMA 
+@param  var to store data read from the SPI module in 
+@param dummy data to send via SPI module 
+*/
 void StartDma(short* resBuffer, short* dummy)
 {
 	SPI_MODULE_NO->RSER = SPI_RSER_RFDF_DIRS(1) | SPI_RSER_TFFF_RE(1) | SPI_RSER_RFDF_RE(1) | SPI_RSER_TFFF_DIRS(1);
@@ -60,6 +66,8 @@ void StartDma(short* resBuffer, short* dummy)
 	DMA->ERQ = (1<<DMA_TX_CHNL) | (1<<DMA_RX_CHNL);
 	spiI2Props.dmaActive = true;
 }
+
+
 
 void DmaInit() 
 {

@@ -1,5 +1,5 @@
 Dependencies for Project 'IntellisensSpiMaster', Target 'Target 1': (DO NOT MODIFY !)
-F (.\mainApp.c)(0x5F103767)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\mainapp.o --omf_browse .\objects\mainapp.crf --depend .\objects\mainapp.d)
+F (.\mainApp.c)(0x5F10383B)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\mainapp.o --omf_browse .\objects\mainapp.crf --depend .\objects\mainapp.d)
 I (..\..\devices\MK66F18\utilities\debug_console\fsl_debug_console.h)(0x5D7EB1A0)
 I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
 I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
@@ -57,7 +57,7 @@ I (..\..\SpiCommunication\spiComm.h)(0x5EFEDE12)
 I (..\..\HelpingModules\timers.h)(0x5EFEE475)
 I (..\..\HelpingModules\dma.h)(0x5EFEE475)
 I (..\..\I2Commands\I2Commands.h)(0x5EFF0DAA)
-I (..\k66\gpio.h)(0x5F103202)
+I (..\..\HelpingModules\gpio.h)(0x5F103202)
 F (.\board\clock_config.c)(0x5EFDA9D3)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\clock_config.o --omf_browse .\objects\clock_config.crf --depend .\objects\clock_config.d)
 I (board\clock_config.h)(0x5EFDA9D3)
 I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
@@ -1111,7 +1111,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBA406)
 I (..\..\application\UserConfig.h)(0x5F1031CF)
 I (..\..\HelpingModules\timers.h)(0x5EFEE475)
 F (..\..\HelpingModules\timers.h)(0x5EFEE475)()
-F (.\gpio.c)(0x5F103202)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+F (..\..\HelpingModules\gpio.c)(0x5F103202)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
 I (..\..\application\UserConfig.h)(0x5F1031CF)
 I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)
 I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBA406)
@@ -1128,7 +1128,7 @@ I (..\..\CMSIS\Include\cmsis_armcc.h)(0x5D7EB19C)
 I (..\..\devices\MK66F18\system_MK66F18.h)(0x5D7EB1A0)
 I (..\..\devices\MK66F18\MK66F18_features.h)(0x5D7EB1A0)
 I (..\..\devices\MK66F18\drivers\fsl_clock.h)(0x5D7EB1A0)
-F (.\gpio.h)(0x5F103202)()
+F (..\..\HelpingModules\gpio.h)(0x5F103202)()
 F (..\..\TestingFiles\TestMode1.c)(0x5EFF0C17)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\board -I ..\..\CMSIS\Include -I ..\..\devices\MK66F18 -I ..\..\devices\MK66F18\drivers -I ..\..\devices\MK66F18\arm -I ..\..\devices\MK66F18\utilities -I ..\..\devices\MK66F18\utilities\str -I ..\..\devices\MK66F18\utilities\debug_console -I ..\..\TestingFiles -I ..\..\SpiCommunication -I ..\..\I2Commands -I ..\..\HelpingModules -I ..\k66 -I ..\..\components\serial_manager -I ..\..\spiApp -I ..\..\application --asm-I.\RTE\_Target_1-I"C:\Users\Taraz Tech1\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DMK66FN2M0xxx18 -DCPU_MK66FN2M0VLQ18-o .\objects\testmode1.o --omf_browse .\objects\testmode1.crf --depend .\objects\testmode1.d)
 I (..\..\spiApp\spiParams.h)(0x5EFF0850)
 I (..\..\devices\MK66F18\drivers\fsl_common.h)(0x5D7EB1A0)

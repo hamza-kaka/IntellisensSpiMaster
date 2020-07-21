@@ -1,6 +1,6 @@
 /*! 
-@file 
-@brief 
+@file spiComm.h
+@brief  headers for spi comm functions 
 @details 
 
 @author Hamza Naeem Kakakhel

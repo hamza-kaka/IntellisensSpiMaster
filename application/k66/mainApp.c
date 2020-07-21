@@ -1,7 +1,7 @@
 
 /*! 
-@file 
-@brief 
+@file mainApp.c
+@brief  main application file for intellisens I2 SPI testing 
 @details 
 
 @author Hamza Naeem Kakakhel
@@ -38,11 +38,8 @@ bool testResults[NO_OF_MODES] = {0};
 /*******************************************************************************
  * Code
  ******************************************************************************/
-
-
-/* EOF */
-
-
+/*! @brief  main function to init all the clocks, pins and peripheral modules of the controller, also runs the routine to automatically test functionality 
+								of the I2 SPI in all modes*/
 int main()
 {
 
@@ -67,3 +64,7 @@ int main()
 
 return 0;
 }
+
+/* EOF */
+
+

@@ -1,4 +1,4 @@
-.\objects\gpio.o: gpio.c
+.\objects\gpio.o: ..\..\HelpingModules\gpio.c
 .\objects\gpio.o: ..\..\application\UserConfig.h
 .\objects\gpio.o: ..\..\devices\MK66F18\drivers\fsl_common.h
 .\objects\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h

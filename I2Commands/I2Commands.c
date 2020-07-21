@@ -1,6 +1,6 @@
 /*! 
-@file 
-@brief 
+@file I2Commands.c
+@brief  methods for I2 SPI control and functionality
 @details 
 
 @author Hamza Naeem Kakakhel
@@ -18,7 +18,8 @@
 /*******************************************************************************
  * Defines
  ******************************************************************************/
-#define CHNL1MASK 0x40
+ /* masks for registers in I2*/
+#define CHNL1MASK 0x40 
 #define CHNL2MASK 0x80
 #define CONTMASK 0x20
 #define BURSTMASK 0x10
@@ -49,7 +50,7 @@ burst_size_t burstSizeEnum = BURST512;
 /*******************************************************************************
  * Code
  ******************************************************************************/
- 
+ /*! @brief  activates SPI mode in I2  and set default conversion rate */
  void ActivateSlaveSpi()
 {
 	uint8_t temp =0;
@@ -63,6 +64,10 @@ burst_size_t burstSizeEnum = BURST512;
 	SetConvRate(500000);
 }
 
+/*!
+@brief  set SPI frame size 8 bit or 16 bit
+@param  8 bit or 16 bit
+*/
  void FrameSizeSet(uint8_t size)
 {
 	int temp = 0;
@@ -94,7 +99,12 @@ burst_size_t burstSizeEnum = BURST512;
 
 }
 
-void ChnlEnable(uint8_t chnl_no)// 1 for chnl 1, 2 for 2, and 3 for both channels
+
+/*!
+@brief  enables whichever channel is chosen and disables the rest
+@param  channel number ; 1 for chnl 1, 2 for 2, and 3 for both channels
+*/
+void ChnlEnable(uint8_t chnl_no)
 {
 	if(chnl_no <1 && chnl_no >3) 
 		return; // error
@@ -132,10 +142,14 @@ void ChnlEnable(uint8_t chnl_no)// 1 for chnl 1, 2 for 2, and 3 for both channel
 	ReadReg8(REGRCFG2,&temp);
 	if(check != temp)
 		goto set_again;
-	
-	
+
 }
 
+
+/*!
+@brief  enables or disables continous sampling mode 
+@param  true for enable and false for disable 
+*/
 void EnableContMode(bool enable)
 {
 	uint8_t temp=0, check=0;
@@ -159,6 +173,11 @@ void EnableContMode(bool enable)
 		goto set_again;
 }
 
+/*!
+@brief  read sampled data in a burst of readings instead of one by one 
+@param  bool for enabling burst 
+@param size of the data burst
+*/
 void SetBurst(bool burst, int burstSize)
 {
 	if(!burst)
@@ -190,6 +209,11 @@ void SetBurst(bool burst, int burstSize)
 	}
 }
 
+
+/*!
+@brief  set conversion rate of I2 and hence rate of data aquisition 
+@param  required conversion rate in readings or samples per second
+*/
 void SetConvRate(int samplesPerSec)
 {
 	uint16_t crdiv = (48*1000000) /samplesPerSec;
@@ -206,6 +230,10 @@ void SetConvRate(int samplesPerSec)
 		goto set_again;
 }
 
+/*!
+@brief  set which mode we want the I2 to run in , chose 1 from 4 
+@param  mode number 
+*/
 void SetRunMode(uint8_t mode)
 {
 	switch(mode)
@@ -238,7 +266,11 @@ void SetRunMode(uint8_t mode)
 
 																										/********************************************************************************** dynamically used functions **********************************************************************************/
 
-
+/*!
+@brief  reads data from I2 in burst mode for a 16 bit register , using DMA's if testing the conversion rate  
+@param  adress of the register you want to read 
+@param buffer which will store burst data 
+*/
 void ReadBurst16(uint8_t add, short* buffer)
 {
 	WaitTillIdle();
@@ -272,6 +304,11 @@ void ReadBurst16(uint8_t add, short* buffer)
 	}
 }
 
+/*!
+@brief  reads data from I2 in burst mode for a 32 bit register 
+@param  adress of the register you want to read 
+@param buffer which will store burst data 
+*/
 void ReadBurst32(uint8_t add, int* buffer)
 {
 	WaitTillIdle();
@@ -300,6 +337,7 @@ void ReadBurst32(uint8_t add, int* buffer)
 	}
 }
 
+/*! @brief  stops the ADC's in I2 from sampling more data and the stops I2 sending data over in continous modes */
 void SendStopConv()
 {
 	SendSpi(0x01);
@@ -308,6 +346,7 @@ void SendStopConv()
 	WaitTillIdle();
 }
 
+/*! @brief  starts I2 conversion and data aquisition via SPI in any mode */
 void SendStartConv()
 {
 	SendSpi(0x02);
@@ -316,6 +355,11 @@ void SendStartConv()
 	WaitTillIdle();
 }
 
+/*!
+@brief  writes to an 8 bit register via SPI 
+@param  adress of register to write to 
+@param the command which is supposed to be sent 
+*/
 void WriteReg8(uint8_t add, uint8_t cmd)
 {
 	SendSpi(add);
@@ -327,6 +371,11 @@ void WriteReg8(uint8_t add, uint8_t cmd)
 		WaitTillIdle();
 }
 
+/*!
+@brief  writes to an 16 bit register via SPI 
+@param  adress of register to write to 
+@param the command which is supposed to be sent 
+*/
 void WriteReg16(uint8_t add, uint16_t cmd)
 {
 	if(spiI2Props.frameSize == FRAME_SIZE16)
@@ -353,6 +402,11 @@ void WriteReg16(uint8_t add, uint16_t cmd)
 		WaitTillIdle();
 }
 
+/*!
+@brief reads data from an 8 bit register 
+@param  adress to read from 
+@param var in which read data is stored 
+*/
 void ReadReg8(uint8_t add, uint8_t* data)
 {
 	WaitTillIdle();
@@ -363,7 +417,11 @@ void ReadReg8(uint8_t add, uint8_t* data)
 	SysTickDelayUs(2.5);
 }
 
-
+/*!
+@brief reads data from a 16 bit register 
+@param  adress to read from 
+@param var in which read data is stored 
+*/
 void ReadReg16(uint8_t add, short* data)
 {
 	WaitTillIdle();
@@ -389,6 +447,12 @@ void ReadReg16(uint8_t add, short* data)
 	
 }
 
+
+/*!
+@brief reads data from a 32 bit register 
+@param  adress to read from 
+@param var in which read data is stored 
+*/
 void ReadReg32(uint8_t add, int* data)
 {
 	WaitTillIdle();
@@ -419,7 +483,7 @@ void ReadReg32(uint8_t add, int* data)
 }
 
 
-
+/*! @brief  waits till the busy bit of the I2 is idle */
 void WaitTillIdle()
 {
 	uint8_t temp=0;

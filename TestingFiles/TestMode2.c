@@ -1,6 +1,6 @@
 /*! 
-@file 
-@brief 
+@file TestMode2.c
+@brief  tests if mode 2 (single burst) of I2 is working fine via SPI
 @details 
 
 @author Hamza Naeem Kakakhel
@@ -35,6 +35,12 @@
 /*******************************************************************************
  * Code
  ******************************************************************************/
+ 
+   /*!
+ @brief  tests mode 2, checking channel independence(if selected) and data intregrity in both frames and different conversion rates 
+ @param  none 
+ @returns  true if test is cleared and false if test is failed 
+ */
 bool AutoTestMode2()
 {
 	short resultChnls[BURST_512]={0}, resultCh1[BURST_512/2] = {0}, resultCh2[BURST_512/2] = {0}, testNum =250;

@@ -1,6 +1,6 @@
 /*! 
-@file 
-@brief 
+@file TestMode3.c
+@brief  tests if mode 3 (continous single result) of I2 is working fine via SPI 
 @details 
 
 @author Hamza Naeem Kakakhel
@@ -37,6 +37,11 @@
  * Code
  ******************************************************************************/
 
+  /*!
+ @brief  tests mode 3, checking channel independence and data intregrity in both frames and different conversion rates 
+ @param  none 
+ @returns  true if test is cleared and false if test is failed 
+ */
 bool AutoTestMode3()
 {
 	short resultCh1[250]={0}, resultCh2[250]={0}, temp=0, testNum =250;

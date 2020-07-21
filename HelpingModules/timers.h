@@ -1,6 +1,6 @@
 /*! 
-@file 
-@brief 
+@file timers.h
+@brief  definitions and function prototypes related to timers 
 @details 
 
 @author Hamza Naeem Kakakhel

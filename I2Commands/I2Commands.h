@@ -1,6 +1,6 @@
 /*! 
-@file 
-@brief 
+@file I2Commands.h
+@brief  function prototypes for I2 SPI commands
 @details 
 
 @author Hamza Naeem Kakakhel
