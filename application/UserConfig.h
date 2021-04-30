@@ -16,6 +16,7 @@
 /*******************************************************************************
  * Defines
  ******************************************************************************/
+#define TEST_MODES_IND (0) 				//option to test all modes together or independantly
 #define BURST_CHNL_IND_CHCK (0)  //check if channels are working independently in burst mode 
 #define CURRENT_COMP_TEST (0)  //current comparison test, compare if the current values read are equal to the actual current running through the I2
 

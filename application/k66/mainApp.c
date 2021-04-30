@@ -48,13 +48,14 @@ int main()
 	
 	InitSetup();
 	
-	AutoTestComplete(testResults);
-	
-//	AutoTestMode1();
-//	AutoTestMode2(); 
-//	AutoTestMode3();
-//	AutoTestMode4();
-	 
+	#if TEST_MODES_IND
+		AutoTestMode1();
+		AutoTestMode2(); 
+		AutoTestMode3();
+	  AutoTestMode4();
+  #else 
+		AutoTestComplete(testResults);
+  #endif
 	
 	while(1)
 	{}
